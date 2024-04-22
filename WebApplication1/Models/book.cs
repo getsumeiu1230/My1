@@ -4,5 +4,6 @@ public class book
 {
     public string Name;
     public int Page;
-    public int Type;
+    public string Type;
+    public int Id;
 }

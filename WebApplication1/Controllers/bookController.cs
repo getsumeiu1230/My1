@@ -14,9 +14,13 @@ namespace WebApplication1.Controllers
     {
         // GET: api/book
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IEnumerable<book> Get()
         {
-            return new string[] { "value1", "value2" };
+            return new book[]
+            {
+                new book() { Id = 1, Type = "文學", Name = "Jellyfish" ,Page = 335}
+                ,new book(){Id = 2,Type = "宗教",Name = "金色沙漠",Page = 145}
+            };
         }
 
         // GET: api/book/5
@@ -27,7 +31,7 @@ namespace WebApplication1.Controllers
             {
                 return new book()
                 {
-                    Type = 001,
+                    Type = "文學",
                     Name="Jellyfish",
                     Page=335,
                 };
