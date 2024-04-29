@@ -1,0 +1,10 @@
+
+builder.Services.AddSingleton<LineBotConfig, LineBotConfig>((s)=> new LineBotConfig
+{
+    channelSecret = builder.Configuration.GetSection("LineBot")["channelSecret"]!,
+    accessToken = builder.Configuration.GetSection("LineBot")["accessToken"]!,
+});
+
+builder.Services.AddSingleton<ILineService, LineService>();
+builder.Services.AddHttpContextAccessor();
+

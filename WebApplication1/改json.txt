@@ -1,0 +1,4 @@
+  "LineBot": {
+    "channelSecret": "YOUR-SECRET",
+    "accessToken": "YOUR-TOKEN"
+  }
