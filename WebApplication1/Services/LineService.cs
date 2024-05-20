@@ -337,17 +337,21 @@ public class LineService : ILineService
         {
             string[] imgeUrl = new string[]
             {
-                "https://imgur.com/ePUje2b",
-                "https://imgur.com/2Hn6W1l",
-                "https://imgur.com/pUaD3ps",
-                "https://imgur.com/5zi1NBI",
-                "https://imgur.com/OsF0sml",
-                "https://imgur.com/fEMncuT",
-                "https://imgur.com/Wx7i1Jd",
-                "https://imgur.com/jOzjUtU",
-                "https://imgur.com/tJvcxkt",
-                "https://imgur.com/IHVhoj3",
-                "https://imgur.com/QMBILKF"
+                "https://i.imgur.com/ePUje2b.jpg",//OK
+                "https://i.imgur.com/2Hn6W1l.jpg",
+                "https://i.imgur.com/pUaD3ps.jpg",
+                "https://i.imgur.com/5zi1NBI.jpg",
+                "https://i.imgur.com/OsF0sml.jpg",
+                "https://i.imgur.com/fEMncuT.jpg",
+                "https://i.imgur.com/Wx7i1Jd.jpg",
+                "https://i.imgur.com/jOzjUtU.jpg",
+                "https://i.imgur.com/tJvcxkt.jpg",
+                "https://i.imgur.com/NEXaeFh.jpg",
+                "https://i.imgur.com/IHVhoj3.jpg",
+                "https://i.imgur.com/OeJElfs.jpg",
+                "https://i.imgur.com/G8vAD5y.jpg",
+                "https://i.imgur.com/zeGb1vS.jpg",
+                "https://i.imgur.com/QMBILKF.png"
 
             };
             Random rnd =new Random((int)DateTime.Now.TimeOfDay.TotalSeconds);
@@ -363,7 +367,7 @@ public class LineService : ILineService
         {
             string[] imgeUrl = new string[]
             {
-                "https://i.imgur.com/4H8dkF1.jpg",
+                "https://i.imgur.com/4H8dkF1.jpg",//OK
                 "https://i.imgur.com/iHqpOih.jpg",
 
             };
