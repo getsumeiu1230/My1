@@ -11,6 +11,46 @@ public class LineService : ILineService
     public async Task<List<ISendMessage>> ProcessTextEventMessageAsync(string channelId, string userId, string message)
     {
         var result = null as List<ISendMessage>;
+        if (message.Contains("哈嗕"))
+        {
+            string[] imgeUrl = new string[]
+            {
+                "https://imgur.com/4wNC7Cn",
+                "https://imgur.com/5GGgykE",
+                "https://imgur.com/UqqqhsI",
+                "https://imgur.com/ZG7RtGu",
+                "https://imgur.com/bZVq6Vc"
+                
+
+            };
+            Random rnd =new Random((int)DateTime.Now.TimeOfDay.TotalSeconds);
+            int index = rnd.Next(0, imgeUrl.Length);
+
+            return new List<ISendMessage>
+            {
+                new ImageMessage(imgeUrl[index], imgeUrl[index],null),
+            };
+        }
+        if (message.Contains("哼"))
+        {
+            string[] imgeUrl = new string[]
+            {
+                "https://imgur.com/4wNC7Cn",
+                "https://imgur.com/5GGgykE",
+                "https://imgur.com/UqqqhsI",
+                "https://imgur.com/ZG7RtGu",
+                "https://imgur.com/bZVq6Vc"
+                
+
+            };
+            Random rnd =new Random((int)DateTime.Now.TimeOfDay.TotalSeconds);
+            int index = rnd.Next(0, imgeUrl.Length);
+
+            return new List<ISendMessage>
+            {
+                new ImageMessage(imgeUrl[index], imgeUrl[index],null),
+            };
+        }
         if (message.Contains("臭臭"))
         {
             string[] imgeUrl = new string[]
@@ -19,6 +59,7 @@ public class LineService : ILineService
                 "https://imgur.com/5GGgykE",
                 "https://imgur.com/UqqqhsI",
                 "https://imgur.com/ZG7RtGu",
+                "https://imgur.com/bZVq6Vc"
                 
 
             };
@@ -117,7 +158,10 @@ public class LineService : ILineService
                 "https://imgur.com/sK5FBlZ",
                 "https://imgur.com/cDObwbj",
                 "https://imgur.com/GJZvCMo",
-                "https://imgur.com/NEXaeFh"
+                "https://imgur.com/NEXaeFh",
+                "https://imgur.com/CrkJ8X5",
+                "https://imgur.com/2fEPmMe",
+                "https://imgur.com/2ZAkZKq"
                 
 
             };
@@ -135,7 +179,7 @@ public class LineService : ILineService
             {
                 "https://imgur.com/ZG7RtGu",
                 "https://imgur.com/jMPRfAC",
-                "",
+                "https://imgur.com/bZVq6Vc",
                 "",
                 ""
                 
@@ -216,7 +260,8 @@ public class LineService : ILineService
                 "https://imgur.com/BptBXcx",
                 "https://imgur.com/WzQLNaq",
                 "https://imgur.com/7WyrGFH",
-                "https://imgur.com/QMBILKF"
+                "https://imgur.com/QMBILKF",
+                "https://imgur.com/hMtRQaU"
                 
                 
                 
@@ -318,8 +363,8 @@ public class LineService : ILineService
         {
             string[] imgeUrl = new string[]
             {
-                "https://imgur.com/4H8dkF1",
-                "https://imgur.com/iHqpOih",
+                "https://i.imgur.com/4H8dkF1.jpg",
+                "https://i.imgur.com/iHqpOih.jpg",
 
             };
             Random rnd =new Random((int)DateTime.Now.TimeOfDay.TotalSeconds);
