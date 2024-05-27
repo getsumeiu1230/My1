@@ -11,15 +11,88 @@ public class LineService : ILineService
     public async Task<List<ISendMessage>> ProcessTextEventMessageAsync(string channelId, string userId, string message)
     {
         var result = null as List<ISendMessage>;
+        if (message.Contains("睏"))
+        {
+            string[] imgeUrl = new string[]
+            {
+                "https://i.imgur.com/FY5E5PC.jpg",//ok
+                "https://i.imgur.com/pHB8qQU.jpg",
+                "https://i.imgur.com/aJxQKaX.jpg",
+                "https://i.imgur.com/xLv4W7y.jpg",
+                "https://i.imgur.com/5GGgykE.jpg",
+                "https://i.imgur.com/UqqqhsI.jpg"
+               
+                
+
+            };
+            Random rnd =new Random((int)DateTime.Now.TimeOfDay.TotalSeconds);
+            int index = rnd.Next(0, imgeUrl.Length);
+
+            return new List<ISendMessage>
+            {
+                new ImageMessage(imgeUrl[index], imgeUrl[index],null),
+            };
+        }
+        if (message.Contains("呀咧"))
+        {
+            string[] imgeUrl = new string[]
+            {
+                "https://i.imgur.com/9Zuk8ck.jpg",//ok
+               
+               
+                
+
+            };
+            Random rnd =new Random((int)DateTime.Now.TimeOfDay.TotalSeconds);
+            int index = rnd.Next(0, imgeUrl.Length);
+
+            return new List<ISendMessage>
+            {
+                new ImageMessage(imgeUrl[index], imgeUrl[index],null),
+            };
+        }
+        if (message.Contains("我看了什麼"))
+        {
+            string[] imgeUrl = new string[]
+            {
+                "https://i.imgur.com/hMtRQaU.jpg",//ok
+               
+               
+                
+
+            };
+            Random rnd =new Random((int)DateTime.Now.TimeOfDay.TotalSeconds);
+            int index = rnd.Next(0, imgeUrl.Length);
+
+            return new List<ISendMessage>
+            {
+                new ImageMessage(imgeUrl[index], imgeUrl[index],null),
+            };
+        }
+        if (message.Contains("好嗎"))
+        {
+            string[] imgeUrl = new string[]
+            {
+                "https://i.imgur.com/cDqJ30Y.jpg",//ok
+                "https://i.imgur.com/lfJT0gb.jpg"
+               
+                
+
+            };
+            Random rnd =new Random((int)DateTime.Now.TimeOfDay.TotalSeconds);
+            int index = rnd.Next(0, imgeUrl.Length);
+
+            return new List<ISendMessage>
+            {
+                new ImageMessage(imgeUrl[index], imgeUrl[index],null),
+            };
+        }
         if (message.Contains("哈嗕"))
         {
             string[] imgeUrl = new string[]
             {
-                "https://imgur.com/4wNC7Cn",
-                "https://imgur.com/5GGgykE",
-                "https://imgur.com/UqqqhsI",
-                "https://imgur.com/ZG7RtGu",
-                "https://imgur.com/bZVq6Vc"
+                "https://i.imgur.com/cDqJ30Y.jpg",
+               
                 
 
             };
@@ -35,11 +108,10 @@ public class LineService : ILineService
         {
             string[] imgeUrl = new string[]
             {
-                "https://imgur.com/4wNC7Cn",
-                "https://imgur.com/5GGgykE",
-                "https://imgur.com/UqqqhsI",
-                "https://imgur.com/ZG7RtGu",
-                "https://imgur.com/bZVq6Vc"
+                "https://i.imgur.com/tJvcxkt.jpg",//ok
+                "https://i.imgur.com/n1xHl36.jpg",
+                "https://i.imgur.com/4wNC7Cn.jpg",
+                "https://i.imgur.com/LgF6L5C.jpg",
                 
 
             };
@@ -55,11 +127,11 @@ public class LineService : ILineService
         {
             string[] imgeUrl = new string[]
             {
-                "https://imgur.com/jMPRfAC",
-                "https://imgur.com/5GGgykE",
-                "https://imgur.com/UqqqhsI",
-                "https://imgur.com/ZG7RtGu",
-                "https://imgur.com/bZVq6Vc"
+                "https://i.imgur.com/jMPRfAC.jpg",//ok
+                "https://i.imgur.com/5GGgykE.jpg",
+                "https://i.imgur.com/UqqqhsI.jpg",
+                "https://i.imgur.com/ZG7RtGu.jpg",
+                "https://i.imgur.com/bZVq6Vc.jpg"
                 
 
             };
@@ -75,10 +147,14 @@ public class LineService : ILineService
         {
             string[] imgeUrl = new string[]
             {
-                "https://imgur.com/76lIxKL",
-                "https://imgur.com/dkFCc6t",
-                "https://imgur.com/Wdp1iU8",
-                "https://imgur.com/HAvgPuv"
+                "https://i.imgur.com/dkFCc6t.jpg",
+                "https://i.imgur.com/Wdp1iU8.jpg",
+                "https://i.imgur.com/HAvgPuv.jpg",
+                "https://i.imgur.com/4wNC7Cn.jpg",
+                "https://i.imgur.com/xe3yeYa.jpg",
+                "https://i.imgur.com/CXGJane.jpg",
+                "https://i.imgur.com/FLAMQMJ.jpg",
+                
                
                 
 
@@ -95,7 +171,10 @@ public class LineService : ILineService
         {
             string[] imgeUrl = new string[]
             {
-                "https://imgur.com/76lIxKL",
+                "https://i.imgur.com/76lIxKL.jpg",
+                "https://i.imgur.com/jAwWgk2.jpg", //ok
+                "https://i.imgur.com/FY5E5PC.jpg",
+                ""
                
                 
 
@@ -112,9 +191,9 @@ public class LineService : ILineService
         {
             string[] imgeUrl = new string[]
             {
-                "https://imgur.com/Kb2awJm",
-                "https://imgur.com/RotTa4A",
-                "https://imgur.com/ZkbAuDW",
+                "https://i.imgur.com/Kb2awJm.jpg",//ok
+                "https://i.imgur.com/RotTa4A.jpg",
+                "https://i.imgur.com/ZkbAuDW.jpg",
                 
 
             };
@@ -154,14 +233,17 @@ public class LineService : ILineService
         {
             string[] imgeUrl = new string[]
             {
-                "https://imgur.com/A1YlxBs",
-                "https://imgur.com/sK5FBlZ",
-                "https://imgur.com/cDObwbj",
-                "https://imgur.com/GJZvCMo",
-                "https://imgur.com/NEXaeFh",
-                "https://imgur.com/CrkJ8X5",
-                "https://imgur.com/2fEPmMe",
-                "https://imgur.com/2ZAkZKq"
+                "https://i.imgur.com/A1YlxBs.jpg",//ok
+                "https://i.imgur.com/sK5FBlZ.jpg",
+                "https://i.imgur.com/cDObwbj.jpg",
+                "https://i.imgur.com/GJZvCMo.jpg",
+                "https://i.imgur.com/NEXaeFh.jpg",
+                "https://i.imgur.com/CrkJ8X5.jpg",
+                "https://i.imgur.com/2fEPmMe.jpg",
+                "https://i.imgur.com/2ZAkZKq.png",
+                "https://i.imgur.com/7WyrGFH.png",
+                "https://i.imgur.com/EzYbIv1.png",
+                "https://i.imgur.com/cqQDJaJ.jpg"
                 
 
             };
@@ -177,11 +259,9 @@ public class LineService : ILineService
         {
             string[] imgeUrl = new string[]
             {
-                "https://imgur.com/ZG7RtGu",
-                "https://imgur.com/jMPRfAC",
-                "https://imgur.com/bZVq6Vc",
-                "",
-                ""
+                "https://i.imgur.com/bZVq6Vc.jpg",//ok
+                "https://i.imgur.com/jMPRfAC.jpg",
+               
                 
                 
 
@@ -222,11 +302,13 @@ public class LineService : ILineService
         {
             string[] imgeUrl = new string[]
             {
-                "https://imgur.com/V24tq5Z",
-                "https://imgur.com/hc1cdQl",
-                "https://imgur.com/n0FqKOd",
-                "https://imgur.com/LOMcogS",
-                "https://imgur.com/lJIW4wO"
+                "https://i.imgur.com/V24tq5Z.jpg",//ok
+                "https://i.imgur.com/GJZvCMo.jpg",
+                "https://i.imgur.com/QtJXFR3.jpg",
+                "https://i.imgur.com/cDqJ30Y.jpg",
+                "https://i.imgur.com/hc1cdQl.jpg",
+                "https://i.imgur.com/NEXaeFh.jpg",
+                "https://i.imgur.com/lJIW4wO.jpg"
                 
                 
 
@@ -280,8 +362,11 @@ public class LineService : ILineService
         {
             string[] imgeUrl = new string[]
             {
-                "https://imgur.com/RzBbSIA",
-                "https://imgur.com/iFeWZfc",
+                "https://i.imgur.com/zeQ7tWc.jpg",//ok
+                "https://i.imgur.com/dkFCc6t.jpg",
+                "https://i.imgur.com/RzBbSIA.jpg",
+                "https://i.imgur.com/iFeWZfc.jpg",
+                
                 
                 
 
@@ -298,10 +383,12 @@ public class LineService : ILineService
         {
             string[] imgeUrl = new string[]
             {
-                "https://imgur.com/zeQ7tWc",
-                "https://imgur.com/WzQLNaq",
-                "https://imgur.com/5cm5oeq",
-                "https://imgur.com/G8vAD5y",
+                "https://i.imgur.com/zeQ7tWc.jpg",//ok
+                "https://i.imgur.com/RzBbSIA.jpg",
+                "https://i.imgur.com/WzQLNaq.jpg",
+                "https://i.imgur.com/5cm5oeq.jpg",
+                "https://i.imgur.com/G8vAD5y.jpg",
+                
                 
                 
                 
@@ -320,7 +407,7 @@ public class LineService : ILineService
         {
             string[] imgeUrl = new string[]
             {
-                "https://imgur.com/IHVhoj3",
+                "https://i.imgur.com/IHVhoj3.jpg",
                 
 
             };
