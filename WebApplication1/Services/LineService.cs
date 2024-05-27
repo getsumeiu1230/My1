@@ -51,11 +51,12 @@ public class LineService : ILineService
                 new ImageMessage(imgeUrl[index], imgeUrl[index],null),
             };
         }
-        if (message.Contains("我看了什麼"))
+        if (message.Contains("中獎"))
         {
             string[] imgeUrl = new string[]
             {
-                "https://i.imgur.com/hMtRQaU.jpg",//ok
+                "https://i.imgur.com/AyEIwLu.jpg",
+                "https://i.imgur.com/PQET5Vk.jpg"//ok
                
                
                 
@@ -69,12 +70,560 @@ public class LineService : ILineService
                 new ImageMessage(imgeUrl[index], imgeUrl[index],null),
             };
         }
-        if (message.Contains("好嗎"))
+        if (message.Contains("傳說"))
         {
             string[] imgeUrl = new string[]
             {
-                "https://i.imgur.com/cDqJ30Y.jpg",//ok
-                "https://i.imgur.com/lfJT0gb.jpg"
+                "0https://i.imgur.com/NwrUEiS.jpg",//ok
+               
+               
+                
+
+            };
+            Random rnd =new Random((int)DateTime.Now.TimeOfDay.TotalSeconds);
+            int index = rnd.Next(0, imgeUrl.Length);
+
+            return new List<ISendMessage>
+            {
+                new ImageMessage(imgeUrl[index], imgeUrl[index],null),
+            };
+        }
+        if (message.Contains("阿北鮪魚"))
+        {
+            string[] imgeUrl = new string[]
+            {
+                "https://i.imgur.com/tC8ocnT.png",//ok
+               
+               
+                
+
+            };
+            Random rnd =new Random((int)DateTime.Now.TimeOfDay.TotalSeconds);
+            int index = rnd.Next(0, imgeUrl.Length);
+
+            return new List<ISendMessage>
+            {
+                new ImageMessage(imgeUrl[index], imgeUrl[index],null),
+            };
+        }
+        if (message.Contains("新年快樂"))
+        {
+            string[] imgeUrl = new string[]
+            {
+                "https://i.imgur.com/NRM3mBO.jpg",//ok
+               
+               
+                
+
+            };
+            Random rnd =new Random((int)DateTime.Now.TimeOfDay.TotalSeconds);
+            int index = rnd.Next(0, imgeUrl.Length);
+
+            return new List<ISendMessage>
+            {
+                new ImageMessage(imgeUrl[index], imgeUrl[index],null),
+            };
+        }
+        if (message.Contains("燒腦"))
+        {
+            string[] imgeUrl = new string[]
+            {
+                "https://i.imgur.com/cFDhQk1.jpg",
+                "https://i.imgur.com/VcEr4yp.jpg"//ok
+               
+               
+                
+
+            };
+            Random rnd =new Random((int)DateTime.Now.TimeOfDay.TotalSeconds);
+            int index = rnd.Next(0, imgeUrl.Length);
+
+            return new List<ISendMessage>
+            {
+                new ImageMessage(imgeUrl[index], imgeUrl[index],null),
+            };
+        }
+        if (message.Contains("壯"))
+        {
+            string[] imgeUrl = new string[]
+            {
+                "https://i.imgur.com/hRws3tb.jpg",//ok
+               
+               
+                
+
+            };
+            Random rnd =new Random((int)DateTime.Now.TimeOfDay.TotalSeconds);
+            int index = rnd.Next(0, imgeUrl.Length);
+
+            return new List<ISendMessage>
+            {
+                new ImageMessage(imgeUrl[index], imgeUrl[index],null),
+            };
+        }
+        if (message.Contains("沒錢"))
+        {
+            string[] imgeUrl = new string[]
+            {
+                "https://i.imgur.com/4z3p6zX.jpg",//ok
+               
+               
+                
+
+            };
+            Random rnd =new Random((int)DateTime.Now.TimeOfDay.TotalSeconds);
+            int index = rnd.Next(0, imgeUrl.Length);
+
+            return new List<ISendMessage>
+            {
+                new ImageMessage(imgeUrl[index], imgeUrl[index],null),
+            };
+        }
+        if (message.Contains("不想做設計"))
+        {
+            string[] imgeUrl = new string[]
+            {
+                "https://i.imgur.com/IVY4oVH.jpg",//ok
+               
+               
+                
+
+            };
+            Random rnd =new Random((int)DateTime.Now.TimeOfDay.TotalSeconds);
+            int index = rnd.Next(0, imgeUrl.Length);
+
+            return new List<ISendMessage>
+            {
+                new ImageMessage(imgeUrl[index], imgeUrl[index],null),
+            };
+        }
+        if (message.Contains("蘑菇"))
+        {
+            string[] imgeUrl = new string[]
+            {
+                "https://i.imgur.com/GbiGScM.jpg",
+                "https://i.imgur.com/gdCW2MG.jpg"//ok
+               
+               
+                
+
+            };
+            Random rnd =new Random((int)DateTime.Now.TimeOfDay.TotalSeconds);
+            int index = rnd.Next(0, imgeUrl.Length);
+
+            return new List<ISendMessage>
+            {
+                new ImageMessage(imgeUrl[index], imgeUrl[index],null),
+            };
+        }
+        if (message.Contains("泰拉瑞亞"))
+        {
+            string[] imgeUrl = new string[]
+            {
+                "https://i.imgur.com/WzQLNaq.jpg",
+                "https://i.imgur.com/BptBXcx.jpg",
+                "https://i.imgur.com/WyQznXa.jpg"//ok
+               
+               
+                
+
+            };
+            Random rnd =new Random((int)DateTime.Now.TimeOfDay.TotalSeconds);
+            int index = rnd.Next(0, imgeUrl.Length);
+
+            return new List<ISendMessage>
+            {
+                new ImageMessage(imgeUrl[index], imgeUrl[index],null),
+            };
+        }
+        if (message.Contains("芒果"))
+        {
+            string[] imgeUrl = new string[]
+            {
+                "https://i.imgur.com/2JDoUif.jpg",//ok
+               
+               
+                
+
+            };
+            Random rnd =new Random((int)DateTime.Now.TimeOfDay.TotalSeconds);
+            int index = rnd.Next(0, imgeUrl.Length);
+
+            return new List<ISendMessage>
+            {
+                new ImageMessage(imgeUrl[index], imgeUrl[index],null),
+            };
+        }
+        if (message.Contains("蘋果"))
+        {
+            string[] imgeUrl = new string[]
+            {
+                "https://i.imgur.com/KXi2iIZ.jpg",
+                "https://i.imgur.com/CEK4UxW.jpg",
+                "https://i.imgur.com/FRmiFXn.png",
+                "https://i.imgur.com/P9eoz3Z.png"//ok
+               
+               
+                
+
+            };
+            Random rnd =new Random((int)DateTime.Now.TimeOfDay.TotalSeconds);
+            int index = rnd.Next(0, imgeUrl.Length);
+
+            return new List<ISendMessage>
+            {
+                new ImageMessage(imgeUrl[index], imgeUrl[index],null),
+            };
+        }
+        if (message.Contains("香蕉"))
+        {
+            string[] imgeUrl = new string[]
+            {
+                "https://i.imgur.com/2zdfufV.png",
+                "https://i.imgur.com/A1YlxBs.jpg",
+                "https://i.imgur.com/KXi2iIZ.jpg"//ok
+               
+               
+                
+
+            };
+            Random rnd =new Random((int)DateTime.Now.TimeOfDay.TotalSeconds);
+            int index = rnd.Next(0, imgeUrl.Length);
+
+            return new List<ISendMessage>
+            {
+                new ImageMessage(imgeUrl[index], imgeUrl[index],null),
+            };
+        }
+        if (message.Contains("色色"))
+        {
+            string[] imgeUrl = new string[]
+            {
+                "https://i.imgur.com/u7MLyH5.png",
+                "https://i.imgur.com/9T13oBf.jpg",
+                "https://i.imgur.com/StozIu2.jpg",
+                "https://i.imgur.com/A1YlxBs.jpg",
+                "https://i.imgur.com/dA9MBCC.jpg"//ok
+               
+               
+                
+
+            };
+            Random rnd =new Random((int)DateTime.Now.TimeOfDay.TotalSeconds);
+            int index = rnd.Next(0, imgeUrl.Length);
+
+            return new List<ISendMessage>
+            {
+                new ImageMessage(imgeUrl[index], imgeUrl[index],null),
+            };
+        }
+        if (message.Contains("聰明"))
+        {
+            string[] imgeUrl = new string[]
+            {
+                "https://i.imgur.com/rySPOVW.jpg",
+                "https://i.imgur.com/X8sh8uF.jpg"//ok
+               
+               
+                
+
+            };
+            Random rnd =new Random((int)DateTime.Now.TimeOfDay.TotalSeconds);
+            int index = rnd.Next(0, imgeUrl.Length);
+
+            return new List<ISendMessage>
+            {
+                new ImageMessage(imgeUrl[index], imgeUrl[index],null),
+            };
+        }
+        if (message.Contains("丟包"))
+        {
+            string[] imgeUrl = new string[]
+            {
+                "https://i.imgur.com/FnzEOdj.jpg",
+                "https://i.imgur.com/zine7dd.jpg"//ok
+               
+               
+                
+
+            };
+            Random rnd =new Random((int)DateTime.Now.TimeOfDay.TotalSeconds);
+            int index = rnd.Next(0, imgeUrl.Length);
+
+            return new List<ISendMessage>
+            {
+                new ImageMessage(imgeUrl[index], imgeUrl[index],null),
+            };
+        }
+        if (message.Contains("垃圾"))
+        {
+            string[] imgeUrl = new string[]
+            {
+                "https://i.imgur.com/S3oAH5p.jpg",
+                "https://i.imgur.com/ohN7afM.jpg",
+                "https://i.imgur.com/PQET5Vk.jpg",
+                "https://i.imgur.com/lGHnxGG.jpg",
+                "https://i.imgur.com/AyEIwLu.jpg",
+                "https://i.imgur.com/N5hHPWT.jpg",
+                "https://i.imgur.com/0BMARrD.jpg"//ok
+               
+               
+                
+
+            };
+            Random rnd =new Random((int)DateTime.Now.TimeOfDay.TotalSeconds);
+            int index = rnd.Next(0, imgeUrl.Length);
+
+            return new List<ISendMessage>
+            {
+                new ImageMessage(imgeUrl[index], imgeUrl[index],null),
+            };
+        }
+        if (message.Contains("地震"))
+        {
+            string[] imgeUrl = new string[]
+            {
+                "https://i.imgur.com/6X148po.jpg",
+                "https://i.imgur.com/SItw0Ml.jpg"//ok
+               
+               
+                
+
+            };
+            Random rnd =new Random((int)DateTime.Now.TimeOfDay.TotalSeconds);
+            int index = rnd.Next(0, imgeUrl.Length);
+
+            return new List<ISendMessage>
+            {
+                new ImageMessage(imgeUrl[index], imgeUrl[index],null),
+            };
+        }
+        if (message.Contains("指甲"))
+        {
+            string[] imgeUrl = new string[]
+            {
+                "https://i.imgur.com/2L4Z2XG.jpg",//ok
+               
+               
+                
+
+            };
+            Random rnd =new Random((int)DateTime.Now.TimeOfDay.TotalSeconds);
+            int index = rnd.Next(0, imgeUrl.Length);
+
+            return new List<ISendMessage>
+            {
+                new ImageMessage(imgeUrl[index], imgeUrl[index],null),
+            };
+        }
+        if (message.Contains("品客"))
+        {
+            string[] imgeUrl = new string[]
+            {
+                "https://i.imgur.com/QMBILKF.png",//ok
+               
+               
+                
+
+            };
+            Random rnd =new Random((int)DateTime.Now.TimeOfDay.TotalSeconds);
+            int index = rnd.Next(0, imgeUrl.Length);
+
+            return new List<ISendMessage>
+            {
+                new ImageMessage(imgeUrl[index], imgeUrl[index],null),
+            };
+        }
+        if (message.Contains("鬍子"))
+        {
+            string[] imgeUrl = new string[]
+            {
+                "https://i.imgur.com/QMBILKF.png",//ok
+               
+               
+                
+
+            };
+            Random rnd =new Random((int)DateTime.Now.TimeOfDay.TotalSeconds);
+            int index = rnd.Next(0, imgeUrl.Length);
+
+            return new List<ISendMessage>
+            {
+                new ImageMessage(imgeUrl[index], imgeUrl[index],null),
+            };
+        }
+        if (message.Contains("間諜家家酒"))
+        {
+            string[] imgeUrl = new string[]
+            {
+                "https://i.imgur.com/QMBILKF.png",//ok
+               
+               
+                
+
+            };
+            Random rnd =new Random((int)DateTime.Now.TimeOfDay.TotalSeconds);
+            int index = rnd.Next(0, imgeUrl.Length);
+
+            return new List<ISendMessage>
+            {
+                new ImageMessage(imgeUrl[index], imgeUrl[index],null),
+            };
+        }
+        if (message.Contains("好多魚"))
+        {
+            string[] imgeUrl = new string[]
+            {
+                "https://i.imgur.com/kDxAMQ4.jpg",//ok
+               
+               
+                
+
+            };
+            Random rnd =new Random((int)DateTime.Now.TimeOfDay.TotalSeconds);
+            int index = rnd.Next(0, imgeUrl.Length);
+
+            return new List<ISendMessage>
+            {
+                new ImageMessage(imgeUrl[index], imgeUrl[index],null),
+            };
+        }
+        if (message.Contains("蜘蛛絲"))
+        {
+            string[] imgeUrl = new string[]
+            {
+                "https://i.imgur.com/GvsMEJS.jpg",//ok
+               
+               
+                
+
+            };
+            Random rnd =new Random((int)DateTime.Now.TimeOfDay.TotalSeconds);
+            int index = rnd.Next(0, imgeUrl.Length);
+
+            return new List<ISendMessage>
+            {
+                new ImageMessage(imgeUrl[index], imgeUrl[index],null),
+            };
+        }
+        if (message.Contains("屁股"))
+        {
+            string[] imgeUrl = new string[]
+            {
+                "https://i.imgur.com/dkFCc6t.jpg",//ok
+               
+               
+                
+
+            };
+            Random rnd =new Random((int)DateTime.Now.TimeOfDay.TotalSeconds);
+            int index = rnd.Next(0, imgeUrl.Length);
+
+            return new List<ISendMessage>
+            {
+                new ImageMessage(imgeUrl[index], imgeUrl[index],null),
+            };
+        }
+        if (message.Contains("愛你"))
+        {
+            string[] imgeUrl = new string[]
+            {
+                "https://i.imgur.com/bZVq6Vc.jpg",
+                "https://i.imgur.com/5cm5oeq.jpg",
+                "https://i.imgur.com/cDqJ30Y.jpg",
+                "https://i.imgur.com/XWCvbIf.jpg",
+                "https://i.imgur.com/7y8uX3H.jpg",
+                "https://i.imgur.com/NAbE9io.jpg"//ok
+               
+               
+                
+
+            };
+            Random rnd =new Random((int)DateTime.Now.TimeOfDay.TotalSeconds);
+            int index = rnd.Next(0, imgeUrl.Length);
+
+            return new List<ISendMessage>
+            {
+                new ImageMessage(imgeUrl[index], imgeUrl[index],null),
+            };
+        }
+        if (message.Contains("花花"))
+        {
+            string[] imgeUrl = new string[]
+            {
+                "https://i.imgur.com/V15zjOb.jpg",//ok
+               
+               
+                
+
+            };
+            Random rnd =new Random((int)DateTime.Now.TimeOfDay.TotalSeconds);
+            int index = rnd.Next(0, imgeUrl.Length);
+
+            return new List<ISendMessage>
+            {
+                new ImageMessage(imgeUrl[index], imgeUrl[index],null),
+            };
+        }
+        if (message.Contains("發票"))
+        {
+            string[] imgeUrl = new string[]
+            {
+                "https://i.imgur.com/OPx4FxQ.jpg",//ok
+               
+               
+                
+
+            };
+            Random rnd =new Random((int)DateTime.Now.TimeOfDay.TotalSeconds);
+            int index = rnd.Next(0, imgeUrl.Length);
+
+            return new List<ISendMessage>
+            {
+                new ImageMessage(imgeUrl[index], imgeUrl[index],null),
+            };
+        }
+        if (message.Contains("毛毛小怪獸"))
+        {
+            string[] imgeUrl = new string[]
+            {
+                "https://i.imgur.com/95FxGQN.jpg",
+                "https://i.imgur.com/ew0NusO.jpg"//ok
+               
+               
+                
+
+            };
+            Random rnd =new Random((int)DateTime.Now.TimeOfDay.TotalSeconds);
+            int index = rnd.Next(0, imgeUrl.Length);
+
+            return new List<ISendMessage>
+            {
+                new ImageMessage(imgeUrl[index], imgeUrl[index],null),
+            };
+        }
+        if (message.Contains("萬聖節"))
+        {
+            string[] imgeUrl = new string[]
+            {
+                "https://i.imgur.com/4H8dkF1.jpg",//OK
+                "https://i.imgur.com/iHqpOih.jpg",
+
+            };
+            Random rnd =new Random((int)DateTime.Now.TimeOfDay.TotalSeconds);
+            int index = rnd.Next(0, imgeUrl.Length);
+
+            return new List<ISendMessage>
+            {
+                new ImageMessage(imgeUrl[index], imgeUrl[index],null),
+            };
+        }
+        if (message.Contains("我看了什麼"))
+        {
+            string[] imgeUrl = new string[]
+            {
+                "https://i.imgur.com/hMtRQaU.jpg",//ok
+               
                
                 
 
@@ -147,7 +696,7 @@ public class LineService : ILineService
         {
             string[] imgeUrl = new string[]
             {
-                "https://i.imgur.com/dkFCc6t.jpg",
+                "https://i.imgur.com/dkFCc6t.jpg",//ok
                 "https://i.imgur.com/Wdp1iU8.jpg",
                 "https://i.imgur.com/HAvgPuv.jpg",
                 "https://i.imgur.com/4wNC7Cn.jpg",
@@ -187,6 +736,42 @@ public class LineService : ILineService
                 new ImageMessage(imgeUrl[index], imgeUrl[index],null),
             };
         }
+        if (message.Contains("ㄆㄨㄧ"))
+        {
+            string[] imgeUrl = new string[]
+            {
+                "https://i.imgur.com/5MeakDT.gif",//ok
+                
+                
+
+            };
+            Random rnd =new Random((int)DateTime.Now.TimeOfDay.TotalSeconds);
+            int index = rnd.Next(0, imgeUrl.Length);
+
+            return new List<ISendMessage>
+            {
+                new ImageMessage(imgeUrl[index], imgeUrl[index],null),
+            };
+        }
+        if (message.Contains("冷"))
+        {
+            string[] imgeUrl = new string[]
+            {
+                "https://i.imgur.com/Kb2awJm.jpg",//ok
+                "https://i.imgur.com/RotTa4A.jpg",
+                "https://i.imgur.com/ZkbAuDW.jpg",
+                "https://i.imgur.com/TemtB9T.jpg"
+                
+
+            };
+            Random rnd =new Random((int)DateTime.Now.TimeOfDay.TotalSeconds);
+            int index = rnd.Next(0, imgeUrl.Length);
+
+            return new List<ISendMessage>
+            {
+                new ImageMessage(imgeUrl[index], imgeUrl[index],null),
+            };
+        }
         if (message.Contains("哈啾"))
         {
             string[] imgeUrl = new string[]
@@ -194,6 +779,7 @@ public class LineService : ILineService
                 "https://i.imgur.com/Kb2awJm.jpg",//ok
                 "https://i.imgur.com/RotTa4A.jpg",
                 "https://i.imgur.com/ZkbAuDW.jpg",
+                "https://i.imgur.com/TemtB9T.jpg"
                 
 
             };
@@ -209,15 +795,16 @@ public class LineService : ILineService
         {
             string[] imgeUrl = new string[]
             {
-                "https://imgur.com/Tbe3oym",
-                "https://imgur.com/dA9MBCC",
-                "https://imgur.com/X8sh8uF",
-                "https://imgur.com/ZcnddPD",
-                "https://imgur.com/kejsGTM",
-                "https://imgur.com/cDqJ30Y",
-                "https://imgur.com/cFDhQk1",
-                "https://imgur.com/lfJT0gb",
-                "https://imgur.com/XWCvbIf"
+                "https://i.imgur.com/Tbe3oym.jpg",//ok
+                "https://i.imgur.com/dA9MBCC.jpg",
+                "https://i.imgur.com/X8sh8uF.jpg",
+                "https://i.imgur.com/ZcnddPD.jpg",
+                "https://i.imgur.com/kejsGTM.jpg",
+                "https://i.imgur.com/cDqJ30Y.jpg",
+                "https://i.imgur.com/cFDhQk1.jpg",
+                "https://i.imgur.com/lfJT0gb.jpg",
+                "https://i.imgur.com/XWCvbIf.jpg",
+                "https://i.imgur.com/sZWy0j8.png"
                 
 
             };
@@ -255,6 +842,27 @@ public class LineService : ILineService
                 new ImageMessage(imgeUrl[index], imgeUrl[index],null),
             };
         }
+        if (message.Contains("哭"))
+        {
+            string[] imgeUrl = new string[]
+            {
+                "https://i.imgur.com/7mMvMvZ.jpg",//ok
+                "https://i.imgur.com/iFeWZfc.jpg",
+                "https://i.imgur.com/FLAMQMJ.jpg",
+                "https://i.imgur.com/CXGJane.jpg"
+               
+                
+                
+
+            };
+            Random rnd =new Random((int)DateTime.Now.TimeOfDay.TotalSeconds);
+            int index = rnd.Next(0, imgeUrl.Length);
+
+            return new List<ISendMessage>
+            {
+                new ImageMessage(imgeUrl[index], imgeUrl[index],null),
+            };
+        }
         if (message.Contains("葡"))
         {
             string[] imgeUrl = new string[]
@@ -278,15 +886,15 @@ public class LineService : ILineService
         {
             string[] imgeUrl = new string[]
             {
-                "https://imgur.com/7y8uX3H",
-                "https://imgur.com/KXi2iIZ",
-                "https://imgur.com/QtJXFR3",
-                "https://imgur.com/BptBXcx",
-                "https://imgur.com/NEXaeFh",
-                "https://imgur.com/5cm5oeq",
-                "https://imgur.com/7WyrGFH",
-                "https://imgur.com/95FxGQN",
-                "https://imgur.com/QMBILKF"
+                "https://i.imgur.com/NAbE9io.jpg",//ok
+                "https://i.imgur.com/7y8uX3H.jpg",
+                "https://i.imgur.com/5cm5oeq.jpg",
+                "https://i.imgur.com/kejsGTM.jpg",
+                "https://i.imgur.com/QtJXFR3.jpg",
+                "https://i.imgur.com/V15zjOb.jpg",
+                "https://i.imgur.com/95FxGQN.jpg",
+                "https://i.imgur.com/cDqJ30Y.jpg",
+                
                 
 
             };
@@ -308,7 +916,9 @@ public class LineService : ILineService
                 "https://i.imgur.com/cDqJ30Y.jpg",
                 "https://i.imgur.com/hc1cdQl.jpg",
                 "https://i.imgur.com/NEXaeFh.jpg",
-                "https://i.imgur.com/lJIW4wO.jpg"
+                "https://i.imgur.com/lJIW4wO.jpg",
+                "https://i.imgur.com/LOMcogS.jpg",
+                
                 
                 
 
@@ -325,25 +935,20 @@ public class LineService : ILineService
         {
             string[] imgeUrl = new string[]
             {
-                "https://imgur.com/u6u7VIf",
-                "https://imgur.com/n0FqKOd",
-                "https://imgur.com/dA9MBCC",
-                "https://imgur.com/X8sh8uF",
-                "https://imgur.com/ZcnddPD",
-                "https://imgur.com/WO5dM6W",
-                "https://imgur.com/dkFCc6t",
-                "https://imgur.com/QtJXFR3",
-                "https://imgur.com/2JDoUif",
-                "https://imgur.com/cFDhQk1",
-                "https://imgur.com/cDqJ30Y",
-                "https://imgur.com/lfJT0gb",
-                "https://imgur.com/ZkbAuDW",
-                "https://imgur.com/76lIxKL",
-                "https://imgur.com/BptBXcx",
-                "https://imgur.com/WzQLNaq",
-                "https://imgur.com/7WyrGFH",
-                "https://imgur.com/QMBILKF",
-                "https://imgur.com/hMtRQaU"
+                "https://i.imgur.com/u6u7VIf.jpg",//ok
+                "https://i.imgur.com/n0FqKOd.jpg",
+                "https://i.imgur.com/LOMcogS.jpg",
+                "https://i.imgur.com/X8sh8uF.jpg",
+                "https://i.imgur.com/ZcnddPD.jpg",
+                "https://i.imgur.com/WO5dM6W.jpg",
+                "https://i.imgur.com/dkFCc6t.jpg",
+                "https://i.imgur.com/QtJXFR3.jpg",
+                "https://i.imgur.com/cDqJ30Y.jpg",
+                "https://i.imgur.com/lfJT0gb.jpg",
+                "https://i.imgur.com/ZkbAuDW.jpg",
+                "https://i.imgur.com/76lIxKL.jpg",
+                "https://i.imgur.com/7WyrGFH.png",
+                "https://i.imgur.com/E8RG6b0.jpg"
                 
                 
                 
@@ -407,7 +1012,7 @@ public class LineService : ILineService
         {
             string[] imgeUrl = new string[]
             {
-                "https://i.imgur.com/IHVhoj3.jpg",
+                "https://i.imgur.com/IHVhoj3.jpg",//ok
                 
 
             };
@@ -438,7 +1043,8 @@ public class LineService : ILineService
                 "https://i.imgur.com/OeJElfs.jpg",
                 "https://i.imgur.com/G8vAD5y.jpg",
                 "https://i.imgur.com/zeGb1vS.jpg",
-                "https://i.imgur.com/QMBILKF.png"
+                "https://i.imgur.com/QMBILKF.png",
+                "https://i.imgur.com/5MeakDT.gif"
 
             };
             Random rnd =new Random((int)DateTime.Now.TimeOfDay.TotalSeconds);
@@ -450,12 +1056,19 @@ public class LineService : ILineService
             };
         }
         
-        if (message.Contains("萬聖節"))
+        
+        if (message.Contains("好棒"))
         {
             string[] imgeUrl = new string[]
             {
-                "https://i.imgur.com/4H8dkF1.jpg",//OK
-                "https://i.imgur.com/iHqpOih.jpg",
+                "https://i.imgur.com/7y8uX3H.jpg",//ok
+                "https://i.imgur.com/Tbe3oym.jpg",
+                "https://i.imgur.com/X8sh8uF.jpg",
+                "https://i.imgur.com/QtJXFR3.jpg",
+                "https://i.imgur.com/95FxGQN.jpg",
+                "https://i.imgur.com/cDqJ30Y.jpg"
+                
+                
 
             };
             Random rnd =new Random((int)DateTime.Now.TimeOfDay.TotalSeconds);
@@ -466,26 +1079,13 @@ public class LineService : ILineService
                 new ImageMessage(imgeUrl[index], imgeUrl[index],null),
             };
         }
-        if (message.Contains("好棒"))
+        if (message.Contains("好嗎"))
         {
             string[] imgeUrl = new string[]
             {
-                "https://imgur.com/7y8uX3H",
-                "https://imgur.com/dA9MBCC",
-                "https://imgur.com/IVY4oVH",
-                "https://imgur.com/Tbe3oym",
-                "https://imgur.com/2JDoUif",
-                "https://imgur.com/GJZvCMo",
-                "https://imgur.com/X8sh8uF",
-                "https://imgur.com/ZcnddPD",
-                "https://imgur.com/QtJXFR3",
-                "https://imgur.com/jMPRfAC",
-                "https://imgur.com/WyQznXa",
-                "https://imgur.com/BptBXcx",
-                "https://imgur.com/WzQLNaq",
-                "https://imgur.com/95FxGQN",
-                "https://imgur.com/QMBILKF"
-                
+                "https://i.imgur.com/cDqJ30Y.jpg",//ok
+                "https://i.imgur.com/lfJT0gb.jpg"
+               
                 
 
             };
