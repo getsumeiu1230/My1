@@ -11,6 +11,30 @@ public class LineService : ILineService
     public async Task<List<ISendMessage>> ProcessTextEventMessageAsync(string channelId, string userId, string message)
     {
         var result = null as List<ISendMessage>;
+        if (message.Contains("羊駝寫真"))
+        {
+            string[] imgeUrl = new string[]
+            {
+                "https://i.imgur.com/Sj3fYtQ.jpg",//ok
+                "https://i.imgur.com/Qjeug8W.jpg",
+                "https://i.imgur.com/FmU1Hso.jpg",
+                "https://i.imgur.com/gjcc8fv.jpg",
+                "https://i.imgur.com/r4RXDXX.jpg",
+                "https://i.imgur.com/Yyju2Op.jpg",
+                "https://i.imgur.com/0W9mz44.jpg",
+                
+               
+                
+
+            };
+            Random rnd =new Random((int)DateTime.Now.TimeOfDay.TotalSeconds);
+            int index = rnd.Next(0, imgeUrl.Length);
+
+            return new List<ISendMessage>
+            {
+                new ImageMessage(imgeUrl[index], imgeUrl[index],null),
+            };
+        }
         if (message.Contains("睏"))
         {
             string[] imgeUrl = new string[]
