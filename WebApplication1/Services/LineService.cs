@@ -30,6 +30,25 @@ public class LineService : ILineService
                 new ImageMessage(imgeUrl[index], imgeUrl[index],null),
             };
         }
+        if (message.Contains("小美冰淇淋"))
+        {
+            string[] imgeUrl = new string[]
+            {
+                "https://i.imgur.com/rHBdLMz.jpg",//ok
+                
+                
+               
+                
+
+            };
+            Random rnd =new Random((int)DateTime.Now.TimeOfDay.TotalSeconds);
+            int index = rnd.Next(0, imgeUrl.Length);
+
+            return new List<ISendMessage>
+            {
+                new ImageMessage(imgeUrl[index], imgeUrl[index],null),
+            };
+        }
         if (message.Contains("11冰淇淋"))
         {
             string[] imgeUrl = new string[]
@@ -263,25 +282,7 @@ public class LineService : ILineService
                 new ImageMessage(imgeUrl[index], imgeUrl[index],null),
             };
         }
-        if (message.Contains("小美冰淇淋"))
-        {
-            string[] imgeUrl = new string[]
-            {
-                "https://i.imgur.com/rHBdLMz.jpg",//ok
-                
-                
-               
-                
-
-            };
-            Random rnd =new Random((int)DateTime.Now.TimeOfDay.TotalSeconds);
-            int index = rnd.Next(0, imgeUrl.Length);
-
-            return new List<ISendMessage>
-            {
-                new ImageMessage(imgeUrl[index], imgeUrl[index],null),
-            };
-        }
+       
         if (message.Contains("思樂冰"))
         {
             string[] imgeUrl = new string[]
