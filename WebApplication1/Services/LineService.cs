@@ -111,6 +111,25 @@ public class LineService : ILineService
                 new ImageMessage(imgeUrl[index], imgeUrl[index],null),
             };
         }
+        if (message.Contains("汽水"))
+        {
+            string[] imgeUrl = new string[]
+            {
+                "https://i.imgur.com/MpRhlNE.jpg",//ok
+                
+                
+               
+                
+
+            };
+            Random rnd =new Random((int)DateTime.Now.TimeOfDay.TotalSeconds);
+            int index = rnd.Next(0, imgeUrl.Length);
+
+            return new List<ISendMessage>
+            {
+                new ImageMessage(imgeUrl[index], imgeUrl[index],null),
+            };
+        }
         if (message.Contains("水"))
         {
             string[] imgeUrl = new string[]
@@ -154,25 +173,6 @@ public class LineService : ILineService
             string[] imgeUrl = new string[]
             {
                 "https://i.imgur.com/jBnZICe.jpg",//ok
-                
-                
-               
-                
-
-            };
-            Random rnd =new Random((int)DateTime.Now.TimeOfDay.TotalSeconds);
-            int index = rnd.Next(0, imgeUrl.Length);
-
-            return new List<ISendMessage>
-            {
-                new ImageMessage(imgeUrl[index], imgeUrl[index],null),
-            };
-        }
-        if (message.Contains("汽水"))
-        {
-            string[] imgeUrl = new string[]
-            {
-                "https://i.imgur.com/MpRhlNE.jpg",//ok
                 
                 
                
