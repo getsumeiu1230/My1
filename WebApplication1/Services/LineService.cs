@@ -282,7 +282,7 @@ public class LineService : ILineService
                 new ImageMessage(imgeUrl[index], imgeUrl[index],null),
             };
         }
-        if (message.Contains("全家/7-11冰淇淋"))
+        if (message.Contains("11冰淇淋"))
         {
             string[] imgeUrl = new string[]
             {
