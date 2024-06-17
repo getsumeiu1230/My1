@@ -1066,7 +1066,7 @@ public class LineService : ILineService
                 new ImageMessage(imgeUrl[index], imgeUrl[index],null),
             };
         }
-        if (message.Contains("上來吧，美女"))
+        if (message.Contains("上來吧美女"))
         {
             string[] imgeUrl = new string[]
             {
