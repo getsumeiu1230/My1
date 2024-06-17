@@ -935,7 +935,7 @@ public class LineService : ILineService
         {
             string[] imgeUrl = new string[]
             {
-                "https://i.imgur.com/vz9pLE6.jpg",//ok
+                "https://i.imgur.com/0dk6vR7.jpg",//ok
                 
                 
                
