@@ -455,6 +455,25 @@ public class LineService : ILineService
                 new ImageMessage(imgeUrl[index], imgeUrl[index],null),
             };
         }
+        if (message.Contains("開房間"))
+        {
+            string[] imgeUrl = new string[]
+            {
+                "https://i.imgur.com/AMdt2Ui.jpg",//ok
+                
+                
+               
+                
+
+            };
+            Random rnd =new Random((int)DateTime.Now.TimeOfDay.TotalSeconds);
+            int index = rnd.Next(0, imgeUrl.Length);
+
+            return new List<ISendMessage>
+            {
+                new ImageMessage(imgeUrl[index], imgeUrl[index],null),
+            };
+        }
         if (message.Contains("寶貝你今天真好看"))
         {
             string[] imgeUrl = new string[]
